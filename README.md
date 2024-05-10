@@ -3,6 +3,8 @@ ils5011
 
 Program pozwala korzystać z symulatora pamięci EPROM ILS-5011 EPSIM polskiej firmy Inline Systems pod kontrolą systemu Linux. Egzemplarz symulatora, który posiadam, został wyprodukowany w 1995 roku. Nie udało mi się znaleźć żadnej wzmianki o tym produkcje w sieci, a tym bardziej oryginalnego oprogramowania. Niniejszy program powstał w całości dzięki inżynierii wstecznej. Komputer komunikuje się z symulatorem za pomocą portu równoległego. Na płytce znajdują się dwa układy pamięci 32 KB, co pozwala na symulację pamięci EPROM do 27512, oraz kilka układów logicznych i elementy dyskretne.
 
+![](doc/ils5011.jpg)
+
 Po krótkiej analizie połączeń na płytce, stało się jasne, który sygnał kontrolny odpowiada za którą funkcję:
 
 * Line Feed -- zatrzask dolnej połówki adresu
